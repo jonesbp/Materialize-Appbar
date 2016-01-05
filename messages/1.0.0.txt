@@ -1,0 +1,8 @@
+
+Material Theme - Appbar Addon
+https://github.com/equinusocio/material-theme-appbar
+
+******************************************************************************
+
+NEW:
+- Add material design appbar style
