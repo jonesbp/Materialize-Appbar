@@ -14,3 +14,9 @@ With this addon you can add a tinted abb bar to your [Material Theme](https://gi
 
 2. Move the folder inside your sublime Packages directory. **(Preferences > Browse packages...)** then restart Sublime Text
 
+## Addon options
+
+```json
+"material_theme_tree_headings"            : true , // Show siderbar headings
+```
+
