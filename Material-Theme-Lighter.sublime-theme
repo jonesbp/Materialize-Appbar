@@ -569,7 +569,7 @@
   {
     "class": "sidebar_container",
     "settings": ["material_theme_appbar_indigo"],
-    "layer0.tint": [255, 179, 0],
+    "layer0.tint": [57, 73, 171],
     "layer1.texture": "Material Theme - Appbar/assets/indigo/sidebar_heading.png"
   },
 
