@@ -3,7 +3,7 @@
 With this addon you can add a tinted app bar to your [Material Theme](https://github.com/equinusocio/material-theme) installation.
 
 ## Screenshots
-![Material Theme](http://equinusocio.github.io/material-theme/assets/multi.jpg)
+![Material Theme App Bar](http://i.imgur.com/LVhR9jq.png)
  
 <!--
 ## Easy installation
