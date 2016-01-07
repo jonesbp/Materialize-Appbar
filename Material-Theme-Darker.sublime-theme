@@ -242,7 +242,7 @@
     "layer0.inner_margin": [0, 54, 0, 0],
     "layer1.texture": "Material Theme - Appbar/assets/teal/sidebar_heading.png",
     "layer1.opacity": 1.0,
-    "layer1.inner_margin": [180, 54, 14, 0],
+    "layer1.inner_margin": [140, 54, 14, 0],
     "content_margin": [0, 54, 0, 0]
   },
 
@@ -264,7 +264,7 @@
     "layer0.inner_margin": [0, 32, 0, 0],
     "layer1.texture": "Material Theme - Appbar/assets/teal/sidebar_heading--small.png",
     "layer1.opacity": 1.0,
-    "layer1.inner_margin": [180, 32, 14, 0],
+    "layer1.inner_margin": [130, 32, 14, 0],
     "content_margin": [0, 32, 0, 0]
   },
 
