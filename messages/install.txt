@@ -11,3 +11,9 @@ https://github.com/equinusocio/material-theme-white-panels
 ******************************************************************************
 
 This package allow you to enable the white panels and inputs inside Material Theme for Sublime Text 3.
+
+## Addon options
+
+```json
+"material_theme_tree_headings": true , // Show siderbar headings
+```
