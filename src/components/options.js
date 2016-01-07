@@ -271,13 +271,13 @@
 
   {
     "class": "tabset_control",
-    "settings": ["material_theme_appbar_indigo"],
+    "settings": ["material_theme_accent_indigo"],
     "layer0.tint": [63, 81, 181],
   },
 
   {
     "class": "tab_control",
-    "settings": ["material_theme_appbar_indigo"],
+    "settings": ["material_theme_accent_indigo"],
     "layer0.tint": [63, 81, 181],
     "layer1.texture": "Material Theme - Appbar/assets/indigo/tab_current.png",
     "layer3.texture": {
@@ -304,13 +304,13 @@
 
   {
     "class": "sidebar_container",
-    "settings": ["material_theme_appbar_indigo"],
+    "settings": ["material_theme_accent_indigo"],
     "layer0.tint": [57, 73, 171],
     "layer1.texture": "Material Theme - Appbar/assets/indigo/sidebar_heading.png"
   },
 
   {
     "class": "sidebar_container",
-    "settings": ["material_theme_small_tab", "material_theme_appbar_indigo"],
+    "settings": ["material_theme_small_tab", "material_theme_accent_indigo"],
     "layer1.texture": "Material Theme - Appbar/assets/indigo/sidebar_heading--small.png",
   },
