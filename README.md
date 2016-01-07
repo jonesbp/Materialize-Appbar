@@ -1,8 +1,10 @@
 # Material Theme - Appbar
 
-With this addon you can add a tinted abb bar to your [Material Theme](https://github.com/equinusocio/material-theme) installation.
+With this addon you can add a tinted app bar to your [Material Theme](https://github.com/equinusocio/material-theme) installation.
 
 ## Screenshots
+![Material Theme](http://equinusocio.github.io/material-theme/assets/multi.jpg)
+ 
 <!--
 ## Easy installation
  Install through the [Package Control](https://packagecontrol.io/installation). Search for *"Material Theme Appbar"* then **restart** Sublime Text.
