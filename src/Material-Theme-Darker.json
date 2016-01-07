@@ -1,0 +1,5 @@
+[
+  "components/tabs.js",
+  "components/sidebar.js",
+  "components/options.js"
+]
