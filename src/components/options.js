@@ -17,8 +17,6 @@
     "class": "sidebar_heading",
     "settings": ["material_theme_tree_headings"],
     "color": [207, 216, 220, 255],
-    "font.bold": false,
-    "font.size": 12,
   },
 
 
@@ -28,13 +26,13 @@
   {
     "class": "tabset_control",
     "settings": ["material_theme_accent_lime"],
-    "layer0.tint": [139, 195, 74],
+    "layer0.tint": [124, 179, 76],
   },
 
   {
     "class": "tab_control",
     "settings": ["material_theme_accent_lime"],
-    "layer0.tint": [139, 195, 74],
+    "layer0.tint": [124, 179, 76],
     "layer1.texture": "Material Theme - Appbar/assets/lime/tab_current.png",
     "layer3.texture": {
             "keyframes":
@@ -61,7 +59,7 @@
     {
     "class": "sidebar_container",
     "settings": ["material_theme_accent_lime"],
-    "layer0.tint": [124, 179, 66],
+    "layer0.tint": [104, 159, 56],
     "layer0.inner_margin": [0, 54, 0, 0],
     "layer1.texture": "Material Theme - Appbar/assets/lime/sidebar_heading.png",
     "layer1.opacity": 1.0,
