@@ -81,12 +81,7 @@
 
   {
     "class": "tab_label",
-    "fg": [255, 255, 255, 100],
-    "shadow_color": [255, 255, 255, 0],
-    "shadow_offset": [0, 0],
-    "font.size": 11,
-    "font.italic": false,
-    "font.bold": false
+    "fg": [255, 255, 255, 100]
   },
 
     // Tab selected label color
