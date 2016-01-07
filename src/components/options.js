@@ -265,3 +265,52 @@
     "settings": ["material_theme_small_tab", "material_theme_accent_yellow"],
     "layer1.texture": "Material Theme - Appbar/assets/yellow/sidebar_heading--small.png",
   },
+
+  // INDIGO ACCENT
+  // ##################################################################
+
+  {
+    "class": "tabset_control",
+    "settings": ["material_theme_appbar_indigo"],
+    "layer0.tint": [63, 81, 181],
+  },
+
+  {
+    "class": "tab_control",
+    "settings": ["material_theme_appbar_indigo"],
+    "layer0.tint": [63, 81, 181],
+    "layer1.texture": "Material Theme - Appbar/assets/indigo/tab_current.png",
+    "layer3.texture": {
+            "keyframes":
+            [
+              "Material Theme - Appbar/assets/indigo/tab_animation1.png",
+              "Material Theme - Appbar/assets/indigo/tab_animation2.png",
+              "Material Theme - Appbar/assets/indigo/tab_animation3.png",
+              "Material Theme - Appbar/assets/indigo/tab_animation4.png",
+              "Material Theme - Appbar/assets/indigo/tab_animation5.png",
+              "Material Theme - Appbar/assets/indigo/tab_animation6.png",
+              "Material Theme - Appbar/assets/indigo/tab_animation7.png",
+              "Material Theme - Appbar/assets/indigo/tab_animation8.png",
+              "Material Theme - Appbar/assets/indigo/tab_animation9.png",
+              "Material Theme - Appbar/assets/indigo/tab_animation10.png",
+              "Material Theme - Appbar/assets/indigo/tab_animation11.png",
+              "Material Theme - Appbar/assets/indigo/tab_animation12.png",
+              "Material Theme - Appbar/assets/indigo/tab_animation13.png"
+            ],
+            "loop": false,
+            "frame_time": 0.015,
+    }
+  },
+
+  {
+    "class": "sidebar_container",
+    "settings": ["material_theme_appbar_indigo"],
+    "layer0.tint": [255, 179, 0],
+    "layer1.texture": "Material Theme - Appbar/assets/indigo/sidebar_heading.png"
+  },
+
+  {
+    "class": "sidebar_container",
+    "settings": ["material_theme_small_tab", "material_theme_appbar_indigo"],
+    "layer1.texture": "Material Theme - Appbar/assets/indigo/sidebar_heading--small.png",
+  },

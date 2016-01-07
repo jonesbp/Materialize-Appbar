@@ -18,5 +18,6 @@ With this addon you can add a tinted app bar to your [Material Theme](https://gi
 
 ```json
 "material_theme_tree_headings"            : true , // Show siderbar headings
+"material_theme_appbar_indigo"            : true , // Enable indigo app bar
 ```
 
