@@ -8,6 +8,10 @@ With this addon you can add a tinted app bar to your [Material Theme](https://gi
 
 ## Easy installation
 Install through the [Package Control](https://packagecontrol.io/installation). Search for *"Material Theme Appbar"* then **restart** Sublime Text.
+
+### NOTE:
+
+If you've intalled 1.0.0 through Package Control please unistall and reinstall it
  
  
 ## Manual installation
