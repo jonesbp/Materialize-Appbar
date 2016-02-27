@@ -3,7 +3,7 @@
 With this addon you can add a tinted app bar to any theme from [Materialize](https://github.com/saadq/Materialize). This addon auto fits with material theme accent colors!
 
 ## Screenshots
-![Materialize App Bar](http://i.imgur.com/LVhR9jq.png)
+![Materialize App Bar](http://i.imgur.com/QoS68Ef.png)
 
 
 ## Easy installation
