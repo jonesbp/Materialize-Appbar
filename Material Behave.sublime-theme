@@ -1,8 +1,22 @@
 [
- 
+
 /* @TABS
  * Tabs settings and behavioring
 ========================================================================= */
+  {
+    "class": "tabset_control",
+    "layer0.opacity": 1.0,
+    "layer0.tint": [38, 50, 56],
+    "tint_index": 1,
+    "layer0.inner_margin": [2, 6],
+    "layer0.opacity": 1.0,
+    "content_margin": [12, 0, 8, 0],
+    "tab_overlap": 0,
+    "tab_width": 180,
+    "tab_min_width": 64,
+    "tab_height": 54,
+    "mouse_wheel_switch": false
+  },
 
   {
     "class": "tabset_control",
@@ -22,7 +36,7 @@
     "layer0.tint": [0, 150, 136],
     "layer0.opacity": 1.0,
 
-    "layer1.texture": "Material Theme - Appbar/assets/teal/tab_current.png",
+    "layer1.texture": "Materialize - Appbar/assets/teal/tab_current.png",
     "layer1.inner_margin": [0, 0],
     "layer1.opacity": 0.0,
 
@@ -33,19 +47,19 @@
     "layer3.texture": {
             "keyframes":
             [
-              "Material Theme - Appbar/assets/teal/tab_animation1.png",
-              "Material Theme - Appbar/assets/teal/tab_animation2.png",
-              "Material Theme - Appbar/assets/teal/tab_animation3.png",
-              "Material Theme - Appbar/assets/teal/tab_animation4.png",
-              "Material Theme - Appbar/assets/teal/tab_animation5.png",
-              "Material Theme - Appbar/assets/teal/tab_animation6.png",
-              "Material Theme - Appbar/assets/teal/tab_animation7.png",
-              "Material Theme - Appbar/assets/teal/tab_animation8.png",
-              "Material Theme - Appbar/assets/teal/tab_animation9.png",
-              "Material Theme - Appbar/assets/teal/tab_animation10.png",
-              "Material Theme - Appbar/assets/teal/tab_animation11.png",
-              "Material Theme - Appbar/assets/teal/tab_animation12.png",
-              "Material Theme - Appbar/assets/teal/tab_animation13.png"
+              "Materialize - Appbar/assets/teal/tab_animation1.png",
+              "Materialize - Appbar/assets/teal/tab_animation2.png",
+              "Materialize - Appbar/assets/teal/tab_animation3.png",
+              "Materialize - Appbar/assets/teal/tab_animation4.png",
+              "Materialize - Appbar/assets/teal/tab_animation5.png",
+              "Materialize - Appbar/assets/teal/tab_animation6.png",
+              "Materialize - Appbar/assets/teal/tab_animation7.png",
+              "Materialize - Appbar/assets/teal/tab_animation8.png",
+              "Materialize - Appbar/assets/teal/tab_animation9.png",
+              "Materialize - Appbar/assets/teal/tab_animation10.png",
+              "Materialize - Appbar/assets/teal/tab_animation11.png",
+              "Materialize - Appbar/assets/teal/tab_animation12.png",
+              "Materialize - Appbar/assets/teal/tab_animation13.png"
             ],
             "loop": false,
             "frame_time": 0.015,
@@ -113,20 +127,20 @@
     "content_margin": [8,8],
 
      // Close Icon
-    "layer0.texture": "Material Theme - Appbar/assets/commons/close_icon--hover.png",
+    "layer0.texture": "Materialize - Appbar/assets/commons/close_icon--hover.png",
     "layer0.opacity": 0.6,
     "layer0.inner_margin": 0,
 
     // Close Icon Hover
-    "layer1.texture": "Material Theme - Appbar/assets/commons/close_icon--hover.png",
+    "layer1.texture": "Materialize - Appbar/assets/commons/close_icon--hover.png",
     "layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
 
      // Dirty Icon
-    "layer2.texture": "Material Theme - Appbar/assets/commons/dirty_icon.png",
+    "layer2.texture": "Materialize - Appbar/assets/commons/dirty_icon.png",
     "layer2.inner_margin": 0,
 
     // Dirty Icon Hover
-    "layer3.texture": "Material Theme - Appbar/assets/commons/dirty_icon--hover.png",
+    "layer3.texture": "Materialize - Appbar/assets/commons/dirty_icon--hover.png",
     "layer3.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" }
   },
 
@@ -191,9 +205,9 @@
 
   {
     "class": "show_tabs_dropdown_button",
-    "layer0.texture": "Material Theme - Appbar/assets/commons/overflow_menu--hover.png",
+    "layer0.texture": "Materialize - Appbar/assets/commons/overflow_menu--hover.png",
     "layer0.opacity": 0.8,
-    "layer1.texture": "Material Theme - Appbar/assets/commons/overflow_menu--hover.png",
+    "layer1.texture": "Materialize - Appbar/assets/commons/overflow_menu--hover.png",
     "layer1.opacity": { "target": 0.0, "speed": 8.0, "interpolation": "smoothstep" },
   },
 
@@ -207,9 +221,9 @@
 
   {
     "class": "scroll_tabs_left_button",
-    "layer0.texture": "Material Theme - Appbar/assets/commons/arrow_left--hover.png",
+    "layer0.texture": "Materialize - Appbar/assets/commons/arrow_left--hover.png",
     "layer0.opacity": 0.6,
-    "layer1.texture": "Material Theme - Appbar/assets/commons/arrow_left--hover.png",
+    "layer1.texture": "Materialize - Appbar/assets/commons/arrow_left--hover.png",
     "layer1.opacity": { "target": 0.0, "speed": 8.0, "interpolation": "smoothstep" },
   },
 
@@ -221,9 +235,9 @@
 
   {
     "class": "scroll_tabs_right_button",
-    "layer0.texture": "Material Theme - Appbar/assets/commons/arrow_right--hover.png",
+    "layer0.texture": "Materialize - Appbar/assets/commons/arrow_right--hover.png",
     "layer0.opacity": 0.6,
-    "layer1.texture": "Material Theme - Appbar/assets/commons/arrow_right--hover.png",
+    "layer1.texture": "Materialize - Appbar/assets/commons/arrow_right--hover.png",
     "layer1.opacity": { "target": 0.0, "speed": 8.0, "interpolation": "smoothstep" },
   },
 
@@ -242,7 +256,7 @@
     "class": "sidebar_container",
     "layer0.tint": [0, 150, 136],
     "layer0.inner_margin": [0, 54, 0, 0],
-    "layer1.texture": "Material Theme - Appbar/assets/teal/sidebar_heading.png",
+    "layer1.texture": "Materialize - Appbar/assets/teal/sidebar_heading.png",
     "layer1.opacity": 1.0,
     "layer1.inner_margin": [140, 54, 14, 0],
     "content_margin": [0, 54, 0, 0]
@@ -277,7 +291,7 @@
     "settings": ["material_theme_small_tab", "enable_tab_scrolling"],
     "layer0.tint": [0, 150, 136],
     "layer0.inner_margin": [0, 32, 0, 0],
-    "layer1.texture": "Material Theme - Appbar/assets/teal/sidebar_heading--small.png",
+    "layer1.texture": "Materialize - Appbar/assets/teal/sidebar_heading--small.png",
     "layer1.opacity": 1.0,
     "layer1.inner_margin": [130, 36, 14, 0],
     "content_margin": [0, 36, 0, 0]
@@ -286,7 +300,7 @@
   {
     "class": "sidebar_container",
     "settings": ["material_theme_small_tab", "!enable_tab_scrolling"],
-    "layer1.texture": "Material Theme - Appbar/assets/teal/sidebar_heading--small.png",
+    "layer1.texture": "Materialize - Appbar/assets/teal/sidebar_heading--small.png",
     "layer1.inner_margin": [130, 36, 14, 0],
     "content_margin": [0, 36, 0, 0]
   },
@@ -312,23 +326,23 @@
     "class": "tab_control",
     "settings": ["material_theme_accent_lime"],
     "layer0.tint": [124, 179, 76],
-    "layer1.texture": "Material Theme - Appbar/assets/lime/tab_current.png",
+    "layer1.texture": "Materialize - Appbar/assets/lime/tab_current.png",
     "layer3.texture": {
             "keyframes":
             [
-              "Material Theme - Appbar/assets/lime/tab_animation1.png",
-              "Material Theme - Appbar/assets/lime/tab_animation2.png",
-              "Material Theme - Appbar/assets/lime/tab_animation3.png",
-              "Material Theme - Appbar/assets/lime/tab_animation4.png",
-              "Material Theme - Appbar/assets/lime/tab_animation5.png",
-              "Material Theme - Appbar/assets/lime/tab_animation6.png",
-              "Material Theme - Appbar/assets/lime/tab_animation7.png",
-              "Material Theme - Appbar/assets/lime/tab_animation8.png",
-              "Material Theme - Appbar/assets/lime/tab_animation9.png",
-              "Material Theme - Appbar/assets/lime/tab_animation10.png",
-              "Material Theme - Appbar/assets/lime/tab_animation11.png",
-              "Material Theme - Appbar/assets/lime/tab_animation12.png",
-              "Material Theme - Appbar/assets/lime/tab_animation13.png"
+              "Materialize - Appbar/assets/lime/tab_animation1.png",
+              "Materialize - Appbar/assets/lime/tab_animation2.png",
+              "Materialize - Appbar/assets/lime/tab_animation3.png",
+              "Materialize - Appbar/assets/lime/tab_animation4.png",
+              "Materialize - Appbar/assets/lime/tab_animation5.png",
+              "Materialize - Appbar/assets/lime/tab_animation6.png",
+              "Materialize - Appbar/assets/lime/tab_animation7.png",
+              "Materialize - Appbar/assets/lime/tab_animation8.png",
+              "Materialize - Appbar/assets/lime/tab_animation9.png",
+              "Materialize - Appbar/assets/lime/tab_animation10.png",
+              "Materialize - Appbar/assets/lime/tab_animation11.png",
+              "Materialize - Appbar/assets/lime/tab_animation12.png",
+              "Materialize - Appbar/assets/lime/tab_animation13.png"
             ],
             "loop": false,
             "frame_time": 0.015,
@@ -339,13 +353,13 @@
     "class": "sidebar_container",
     "settings": ["material_theme_accent_lime"],
     "layer0.tint": [104, 159, 56],
-    "layer1.texture": "Material Theme - Appbar/assets/lime/sidebar_heading.png",
+    "layer1.texture": "Materialize - Appbar/assets/lime/sidebar_heading.png",
   },
 
   {
     "class": "sidebar_container",
     "settings": ["material_theme_small_tab", "material_theme_accent_lime"],
-    "layer1.texture": "Material Theme - Appbar/assets/lime/sidebar_heading--small.png",
+    "layer1.texture": "Materialize - Appbar/assets/lime/sidebar_heading--small.png",
   },
 
 
@@ -362,23 +376,23 @@
     "class": "tab_control",
     "settings": ["material_theme_accent_orange"],
     "layer0.tint": [255, 87, 34],
-    "layer1.texture": "Material Theme - Appbar/assets/orange/tab_current.png",
+    "layer1.texture": "Materialize - Appbar/assets/orange/tab_current.png",
     "layer3.texture": {
             "keyframes":
             [
-              "Material Theme - Appbar/assets/orange/tab_animation1.png",
-              "Material Theme - Appbar/assets/orange/tab_animation2.png",
-              "Material Theme - Appbar/assets/orange/tab_animation3.png",
-              "Material Theme - Appbar/assets/orange/tab_animation4.png",
-              "Material Theme - Appbar/assets/orange/tab_animation5.png",
-              "Material Theme - Appbar/assets/orange/tab_animation6.png",
-              "Material Theme - Appbar/assets/orange/tab_animation7.png",
-              "Material Theme - Appbar/assets/orange/tab_animation8.png",
-              "Material Theme - Appbar/assets/orange/tab_animation9.png",
-              "Material Theme - Appbar/assets/orange/tab_animation10.png",
-              "Material Theme - Appbar/assets/orange/tab_animation11.png",
-              "Material Theme - Appbar/assets/orange/tab_animation12.png",
-              "Material Theme - Appbar/assets/orange/tab_animation13.png"
+              "Materialize - Appbar/assets/orange/tab_animation1.png",
+              "Materialize - Appbar/assets/orange/tab_animation2.png",
+              "Materialize - Appbar/assets/orange/tab_animation3.png",
+              "Materialize - Appbar/assets/orange/tab_animation4.png",
+              "Materialize - Appbar/assets/orange/tab_animation5.png",
+              "Materialize - Appbar/assets/orange/tab_animation6.png",
+              "Materialize - Appbar/assets/orange/tab_animation7.png",
+              "Materialize - Appbar/assets/orange/tab_animation8.png",
+              "Materialize - Appbar/assets/orange/tab_animation9.png",
+              "Materialize - Appbar/assets/orange/tab_animation10.png",
+              "Materialize - Appbar/assets/orange/tab_animation11.png",
+              "Materialize - Appbar/assets/orange/tab_animation12.png",
+              "Materialize - Appbar/assets/orange/tab_animation13.png"
             ],
             "loop": false,
             "frame_time": 0.015,
@@ -389,13 +403,13 @@
     "class": "sidebar_container",
     "settings": ["material_theme_accent_orange"],
     "layer0.tint": [255, 87, 34],
-    "layer1.texture": "Material Theme - Appbar/assets/orange/sidebar_heading.png"
+    "layer1.texture": "Materialize - Appbar/assets/orange/sidebar_heading.png"
   },
 
   {
     "class": "sidebar_container",
     "settings": ["material_theme_small_tab", "material_theme_accent_orange"],
-    "layer1.texture": "Material Theme - Appbar/assets/orange/sidebar_heading--small.png",
+    "layer1.texture": "Materialize - Appbar/assets/orange/sidebar_heading--small.png",
   },
 
   // PURPLE ACCENT
@@ -411,23 +425,23 @@
     "class": "tab_control",
     "settings": ["material_theme_accent_purple"],
     "layer0.tint": [171, 71, 188],
-    "layer1.texture": "Material Theme - Appbar/assets/purple/tab_current.png",
+    "layer1.texture": "Materialize - Appbar/assets/purple/tab_current.png",
     "layer3.texture": {
             "keyframes":
             [
-              "Material Theme - Appbar/assets/purple/tab_animation1.png",
-              "Material Theme - Appbar/assets/purple/tab_animation2.png",
-              "Material Theme - Appbar/assets/purple/tab_animation3.png",
-              "Material Theme - Appbar/assets/purple/tab_animation4.png",
-              "Material Theme - Appbar/assets/purple/tab_animation5.png",
-              "Material Theme - Appbar/assets/purple/tab_animation6.png",
-              "Material Theme - Appbar/assets/purple/tab_animation7.png",
-              "Material Theme - Appbar/assets/purple/tab_animation8.png",
-              "Material Theme - Appbar/assets/purple/tab_animation9.png",
-              "Material Theme - Appbar/assets/purple/tab_animation10.png",
-              "Material Theme - Appbar/assets/purple/tab_animation11.png",
-              "Material Theme - Appbar/assets/purple/tab_animation12.png",
-              "Material Theme - Appbar/assets/purple/tab_animation13.png"
+              "Materialize - Appbar/assets/purple/tab_animation1.png",
+              "Materialize - Appbar/assets/purple/tab_animation2.png",
+              "Materialize - Appbar/assets/purple/tab_animation3.png",
+              "Materialize - Appbar/assets/purple/tab_animation4.png",
+              "Materialize - Appbar/assets/purple/tab_animation5.png",
+              "Materialize - Appbar/assets/purple/tab_animation6.png",
+              "Materialize - Appbar/assets/purple/tab_animation7.png",
+              "Materialize - Appbar/assets/purple/tab_animation8.png",
+              "Materialize - Appbar/assets/purple/tab_animation9.png",
+              "Materialize - Appbar/assets/purple/tab_animation10.png",
+              "Materialize - Appbar/assets/purple/tab_animation11.png",
+              "Materialize - Appbar/assets/purple/tab_animation12.png",
+              "Materialize - Appbar/assets/purple/tab_animation13.png"
             ],
             "loop": false,
             "frame_time": 0.015,
@@ -438,13 +452,13 @@
     "class": "sidebar_container",
     "settings": ["material_theme_accent_purple"],
     "layer0.tint": [255, 87, 34],
-    "layer1.texture": "Material Theme - Appbar/assets/purple/sidebar_heading.png"
+    "layer1.texture": "Materialize - Appbar/assets/purple/sidebar_heading.png"
   },
 
   {
     "class": "sidebar_container",
     "settings": ["material_theme_small_tab", "material_theme_accent_purple"],
-    "layer1.texture": "Material Theme - Appbar/assets/purple/sidebar_heading--small.png",
+    "layer1.texture": "Materialize - Appbar/assets/purple/sidebar_heading--small.png",
   },
 
   // RED ACCENT
@@ -460,23 +474,23 @@
     "class": "tab_control",
     "settings": ["material_theme_accent_red"],
     "layer0.tint": [244, 67, 54],
-    "layer1.texture": "Material Theme - Appbar/assets/red/tab_current.png",
+    "layer1.texture": "Materialize - Appbar/assets/red/tab_current.png",
     "layer3.texture": {
             "keyframes":
             [
-              "Material Theme - Appbar/assets/red/tab_animation1.png",
-              "Material Theme - Appbar/assets/red/tab_animation2.png",
-              "Material Theme - Appbar/assets/red/tab_animation3.png",
-              "Material Theme - Appbar/assets/red/tab_animation4.png",
-              "Material Theme - Appbar/assets/red/tab_animation5.png",
-              "Material Theme - Appbar/assets/red/tab_animation6.png",
-              "Material Theme - Appbar/assets/red/tab_animation7.png",
-              "Material Theme - Appbar/assets/red/tab_animation8.png",
-              "Material Theme - Appbar/assets/red/tab_animation9.png",
-              "Material Theme - Appbar/assets/red/tab_animation10.png",
-              "Material Theme - Appbar/assets/red/tab_animation11.png",
-              "Material Theme - Appbar/assets/red/tab_animation12.png",
-              "Material Theme - Appbar/assets/red/tab_animation13.png"
+              "Materialize - Appbar/assets/red/tab_animation1.png",
+              "Materialize - Appbar/assets/red/tab_animation2.png",
+              "Materialize - Appbar/assets/red/tab_animation3.png",
+              "Materialize - Appbar/assets/red/tab_animation4.png",
+              "Materialize - Appbar/assets/red/tab_animation5.png",
+              "Materialize - Appbar/assets/red/tab_animation6.png",
+              "Materialize - Appbar/assets/red/tab_animation7.png",
+              "Materialize - Appbar/assets/red/tab_animation8.png",
+              "Materialize - Appbar/assets/red/tab_animation9.png",
+              "Materialize - Appbar/assets/red/tab_animation10.png",
+              "Materialize - Appbar/assets/red/tab_animation11.png",
+              "Materialize - Appbar/assets/red/tab_animation12.png",
+              "Materialize - Appbar/assets/red/tab_animation13.png"
             ],
             "loop": false,
             "frame_time": 0.015,
@@ -487,13 +501,13 @@
     "class": "sidebar_container",
     "settings": ["material_theme_accent_red"],
     "layer0.tint": [229, 57, 53],
-    "layer1.texture": "Material Theme - Appbar/assets/red/sidebar_heading.png"
+    "layer1.texture": "Materialize - Appbar/assets/red/sidebar_heading.png"
   },
 
   {
     "class": "sidebar_container",
     "settings": ["material_theme_small_tab", "material_theme_accent_red"],
-    "layer1.texture": "Material Theme - Appbar/assets/red/sidebar_heading--small.png",
+    "layer1.texture": "Materialize - Appbar/assets/red/sidebar_heading--small.png",
   },
 
   // YELLOW ACCENT
@@ -509,23 +523,23 @@
     "class": "tab_control",
     "settings": ["material_theme_accent_yellow"],
     "layer0.tint": [255, 160, 0],
-    "layer1.texture": "Material Theme - Appbar/assets/yellow/tab_current.png",
+    "layer1.texture": "Materialize - Appbar/assets/yellow/tab_current.png",
     "layer3.texture": {
             "keyframes":
             [
-              "Material Theme - Appbar/assets/yellow/tab_animation1.png",
-              "Material Theme - Appbar/assets/yellow/tab_animation2.png",
-              "Material Theme - Appbar/assets/yellow/tab_animation3.png",
-              "Material Theme - Appbar/assets/yellow/tab_animation4.png",
-              "Material Theme - Appbar/assets/yellow/tab_animation5.png",
-              "Material Theme - Appbar/assets/yellow/tab_animation6.png",
-              "Material Theme - Appbar/assets/yellow/tab_animation7.png",
-              "Material Theme - Appbar/assets/yellow/tab_animation8.png",
-              "Material Theme - Appbar/assets/yellow/tab_animation9.png",
-              "Material Theme - Appbar/assets/yellow/tab_animation10.png",
-              "Material Theme - Appbar/assets/yellow/tab_animation11.png",
-              "Material Theme - Appbar/assets/yellow/tab_animation12.png",
-              "Material Theme - Appbar/assets/yellow/tab_animation13.png"
+              "Materialize - Appbar/assets/yellow/tab_animation1.png",
+              "Materialize - Appbar/assets/yellow/tab_animation2.png",
+              "Materialize - Appbar/assets/yellow/tab_animation3.png",
+              "Materialize - Appbar/assets/yellow/tab_animation4.png",
+              "Materialize - Appbar/assets/yellow/tab_animation5.png",
+              "Materialize - Appbar/assets/yellow/tab_animation6.png",
+              "Materialize - Appbar/assets/yellow/tab_animation7.png",
+              "Materialize - Appbar/assets/yellow/tab_animation8.png",
+              "Materialize - Appbar/assets/yellow/tab_animation9.png",
+              "Materialize - Appbar/assets/yellow/tab_animation10.png",
+              "Materialize - Appbar/assets/yellow/tab_animation11.png",
+              "Materialize - Appbar/assets/yellow/tab_animation12.png",
+              "Materialize - Appbar/assets/yellow/tab_animation13.png"
             ],
             "loop": false,
             "frame_time": 0.015,
@@ -536,13 +550,13 @@
     "class": "sidebar_container",
     "settings": ["material_theme_accent_yellow"],
     "layer0.tint": [255, 179, 0],
-    "layer1.texture": "Material Theme - Appbar/assets/yellow/sidebar_heading.png"
+    "layer1.texture": "Materialize - Appbar/assets/yellow/sidebar_heading.png"
   },
 
   {
     "class": "sidebar_container",
     "settings": ["material_theme_small_tab", "material_theme_accent_yellow"],
-    "layer1.texture": "Material Theme - Appbar/assets/yellow/sidebar_heading--small.png",
+    "layer1.texture": "Materialize - Appbar/assets/yellow/sidebar_heading--small.png",
   },
 
   // INDIGO ACCENT
@@ -558,23 +572,23 @@
     "class": "tab_control",
     "settings": ["material_theme_accent_indigo"],
     "layer0.tint": [63, 81, 181],
-    "layer1.texture": "Material Theme - Appbar/assets/indigo/tab_current.png",
+    "layer1.texture": "Materialize - Appbar/assets/indigo/tab_current.png",
     "layer3.texture": {
             "keyframes":
             [
-              "Material Theme - Appbar/assets/indigo/tab_animation1.png",
-              "Material Theme - Appbar/assets/indigo/tab_animation2.png",
-              "Material Theme - Appbar/assets/indigo/tab_animation3.png",
-              "Material Theme - Appbar/assets/indigo/tab_animation4.png",
-              "Material Theme - Appbar/assets/indigo/tab_animation5.png",
-              "Material Theme - Appbar/assets/indigo/tab_animation6.png",
-              "Material Theme - Appbar/assets/indigo/tab_animation7.png",
-              "Material Theme - Appbar/assets/indigo/tab_animation8.png",
-              "Material Theme - Appbar/assets/indigo/tab_animation9.png",
-              "Material Theme - Appbar/assets/indigo/tab_animation10.png",
-              "Material Theme - Appbar/assets/indigo/tab_animation11.png",
-              "Material Theme - Appbar/assets/indigo/tab_animation12.png",
-              "Material Theme - Appbar/assets/indigo/tab_animation13.png"
+              "Materialize - Appbar/assets/indigo/tab_animation1.png",
+              "Materialize - Appbar/assets/indigo/tab_animation2.png",
+              "Materialize - Appbar/assets/indigo/tab_animation3.png",
+              "Materialize - Appbar/assets/indigo/tab_animation4.png",
+              "Materialize - Appbar/assets/indigo/tab_animation5.png",
+              "Materialize - Appbar/assets/indigo/tab_animation6.png",
+              "Materialize - Appbar/assets/indigo/tab_animation7.png",
+              "Materialize - Appbar/assets/indigo/tab_animation8.png",
+              "Materialize - Appbar/assets/indigo/tab_animation9.png",
+              "Materialize - Appbar/assets/indigo/tab_animation10.png",
+              "Materialize - Appbar/assets/indigo/tab_animation11.png",
+              "Materialize - Appbar/assets/indigo/tab_animation12.png",
+              "Materialize - Appbar/assets/indigo/tab_animation13.png"
             ],
             "loop": false,
             "frame_time": 0.015,
@@ -585,14 +599,14 @@
     "class": "sidebar_container",
     "settings": ["material_theme_accent_indigo"],
     "layer0.tint": [57, 73, 171],
-    "layer1.texture": "Material Theme - Appbar/assets/indigo/sidebar_heading.png"
+    "layer1.texture": "Materialize - Appbar/assets/indigo/sidebar_heading.png"
   },
 
   {
     "class": "sidebar_container",
     "settings": ["material_theme_small_tab", "material_theme_accent_indigo"],
-    "layer1.texture": "Material Theme - Appbar/assets/indigo/sidebar_heading--small.png",
+    "layer1.texture": "Materialize - Appbar/assets/indigo/sidebar_heading--small.png",
   },
 
- 
+
 ]
