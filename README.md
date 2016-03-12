@@ -5,7 +5,6 @@ With this addon you can add a tinted app bar to any theme from [Materialize](htt
 ## Screenshots
 ![Materialize App Bar](http://i.imgur.com/3sLxkju.png)
 
-
 ## Easy installation
 
 The easiest way to install this package is through [Package Control](https://packagecontrol.io/installation). Just search for "Materialize Appbar" and hit enter. Once installed, restart your editor.
@@ -19,6 +18,7 @@ The easiest way to install this package is through [Package Control](https://pac
 ## Addon options
 
 ```json
-"material_theme_tree_headings"            : true , // Show siderbar headings
+"material_theme_tree_headings": true , // Show sidebar headings
+"material_theme_accent_red": true // All theme accents are supported
 ```
 
