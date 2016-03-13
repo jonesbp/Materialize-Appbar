@@ -20,6 +20,12 @@
 
   {
     "class": "tabset_control",
+    "settings": ["material_theme_small_tab"],
+    "tab_height": 36
+  },
+
+  {
+    "class": "tabset_control",
     "layer0.tint": [0, 150, 136],
     "layer0.inner_margin": [2, 6],
     "tint_index": 1
