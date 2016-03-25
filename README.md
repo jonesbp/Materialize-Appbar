@@ -6,7 +6,7 @@ With this add-on you can add a tinted app bar to any theme from [Materialize](ht
 > All screenshots are using Material Spacegray as the theme and color scheme and are using the Fira Mono font.
 
 ### Default
-![](screenshots/default.png)
+![](screenshots/Default.png)
 
 ### Lime Accent
 > `"material_theme_accent_lime": true`
